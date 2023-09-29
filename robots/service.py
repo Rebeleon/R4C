@@ -7,9 +7,7 @@ from datetime import datetime, timedelta
 from openpyxl import Workbook
 from robots.models import Robot
 from orders.models import Order
-
-
-EMAIL_HOST_USER = ''
+from R4C.settings import EMAIL_HOST_USER
 
 
 def download_summary_logic():
