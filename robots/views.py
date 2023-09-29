@@ -18,4 +18,4 @@ def create_robot(request):
 
 
 def download_summary(request):
-    return download_summary_logic(request)
+    return download_summary_logic()
